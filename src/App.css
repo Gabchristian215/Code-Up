@@ -1,0 +1,106 @@
+.stats {
+  margin-top: 12px;
+}
+
+.streak {
+  margin-left: 20px;
+  color: var(--text-h);
+}
+
+.position {
+  margin-top: 16px;
+  font-size: 0.9rem;
+}
+
+button {
+  padding: 8px 20px;
+  font: inherit;
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  background: var(--accent-bg);
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.guess-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 16px;
+}
+
+.guess-form label {
+  color: var(--text-h);
+}
+
+.guess-form input {
+  width: 260px;
+  max-width: 100%;
+  padding: 8px 12px;
+  font: inherit;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.guess-form input.correct {
+  border-color: #16a34a;
+}
+
+.guess-form input.wrong {
+  border-color: #dc2626;
+}
+
+.feedback {
+  min-height: 1.5em;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.feedback.correct {
+  color: #16a34a;
+}
+
+.feedback.wrong {
+  color: #dc2626;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.controls button[aria-label] {
+  font-size: 1.5rem;
+  padding: 4px 20px;
+}
+
+.all-done {
+  margin: 48px 0;
+}
+
+.mastered {
+  margin: 0 auto 40px;
+  padding: 0 16px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.mastered ul {
+  padding-left: 20px;
+}
+
+.mastered li {
+  margin-bottom: 6px;
+}

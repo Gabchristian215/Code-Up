@@ -1,0 +1,72 @@
+.flashcard {
+  position: relative;
+  box-sizing: border-box;
+  width: 600px;
+  max-width: calc(100% - 32px);
+  height: 300px;
+  margin: 24px auto 16px;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 2px solid var(--accent-border);
+  border-radius: 12px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1.3rem;
+  box-shadow: var(--shadow);
+  backface-visibility: hidden;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #f7f0ff;
+}
+
+.card-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+
+.flashcard.correct .card-face {
+  border-color: #16a34a;
+  background-color: #ecfdf3;
+}
+
+.flashcard.wrong .card-face {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+}
+
+.flashcard.wrong {
+  animation: shake 0.4s;
+}
+
+@keyframes shake {
+  25% { translate: -8px; }
+  50% { translate: 8px; }
+  75% { translate: -4px; }
+}
