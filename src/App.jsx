@@ -71,7 +71,7 @@ export default function App() {
   return (
     <>
       <h1>Code Up</h1>
-      <p>How well do you know React? Type your answer, then flip the card to check.</p>
+      <p>How well do you know React?</p>
       <p className="stats">
         Cards left: {deck.length} / {cards.length}
         <span className="streak">Current streak: {currentStreak}</span>

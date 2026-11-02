@@ -4,7 +4,7 @@ Submitted by: **Gabriel Christian**
 
 This web app: **A React flashcard quiz. Each card shows a question about React; you type your guess into the input box and submit it to see right away whether it's correct, then flip the card to see the answer. You can move back and forth through the deck in order, shuffle it, track your current and longest streak of correct answers, and mark cards as mastered to take them out of the deck.**
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
@@ -50,11 +50,6 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/z4e8Ow1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://imgur.com/a/z4e8Ow1
